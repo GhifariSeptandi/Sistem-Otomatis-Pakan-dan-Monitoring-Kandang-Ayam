@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/camera">
+
+    <fragment
+        android:id="@+id/camera"
+        android:label="Streaming"
+        android:name="com.example.tugasakhir.CameraFragment"
+        tools:layout="@layout/fragment_camera"/>
+
+    <fragment
+        android:id="@+id/log_notification"
+        android:label="Log Notification"
+        android:name="com.example.tugasakhir.LogNotificationFragment"
+        tools:layout="@layout/fragment_log_notification"/>
+
+</navigation>

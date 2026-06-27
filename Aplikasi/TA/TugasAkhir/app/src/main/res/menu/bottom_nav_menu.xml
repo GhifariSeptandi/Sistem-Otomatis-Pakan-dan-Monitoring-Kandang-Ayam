@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/camera"
+        android:title="Streaming"
+        android:icon="@drawable/baseline_photo_camera_24"/>
+
+    <item
+        android:id="@+id/log_notification"
+        android:title="Log Notification"
+        android:icon="@drawable/baseline_storage_24"/>
+</menu>
